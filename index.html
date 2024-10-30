@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Unit Converter</title>
+</head>
+<body>
+    <div class="container">
+        <label>Centimeter</label>
+        <input type="number" name="cmnumber" id="getCmNumber">
+        <br>
+        
+        <label for="conversionType">Choose conversion:</label>
+        <select id="conversionType">
+            <option value="meter">Centimeters to Meters</option>
+            <option value="inch">Centimeters to Inches</option>
+            <option value="feet">Centimeters to Feet</option>
+        </select>
+        <br>
+    
+        <button onclick="handleUnitConvert()">Get</button>
+        <br>
+    
+        <label>Result: <span id="result"></span></label>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
